@@ -1,0 +1,29 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.tfvars
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Python and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+
+# Data, models, and local engines
+data/
+artifacts/
+mlruns/
+*.duckdb
+*.parquet
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
